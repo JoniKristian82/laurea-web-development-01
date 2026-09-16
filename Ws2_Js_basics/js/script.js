@@ -13,7 +13,7 @@ const userName = prompt("Kirjoita nimesi:");
 console.log(`Tervehdys ${userName}! Tervetuloa JavaScriptin pariin.`);
 
 const age = prompt("Kuinka vanha olet?");
-const ageNumber = Number(age);
+const ageNumber = Number(ika);
 
 if (ageNumber >= 18) {
     console.log("Olet aikuinen.");

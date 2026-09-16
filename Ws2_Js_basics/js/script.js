@@ -28,6 +28,6 @@ const annettuNimi = prompt("Kirjoita nimesi:");
 
 tervehdiKayttajaa(annettuNimi);
 
-function naytaViesti(Javascript toimii!) {
+function naytaViesti() {
     alert("JavaScript toimii!");
 }

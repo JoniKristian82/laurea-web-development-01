@@ -6,4 +6,4 @@ console.log(name);
 console.log(age);
 console.log(favouriteAnimal);
 
-console.log(`Hello! My name is ${name} and my favourite animal is the ${favouriteAnimal}.`);
+console.log(`Terve! Minun nimeni on ${name} ja minun lempieläimeni on ${favouriteAnimal}.`);

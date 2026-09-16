@@ -10,4 +10,4 @@ console.log(`Terve! Minun nimeni on ${name} ja minun lempieläimeni on ${favouri
 
 const userName = prompt("Kirjoita nimesi:");
 
-console.log(`Hei ${userName}! Tervetuloa JavaScriptin pariin.`);
+console.log(`Tervehdys ${userName}! Tervetuloa JavaScriptin pariin.`);

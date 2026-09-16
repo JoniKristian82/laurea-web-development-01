@@ -20,3 +20,10 @@ if (ageNumber >= 18) {
 } else {
     console.log("Olet alle 18-vuotias.");
 }
+function tervehdiKayttajaa(nimi) {
+    console.log(`Hei ${nimi}! Mukava nähdä sinua.`);
+}
+
+const annettuNimi = prompt("Kirjoita nimesi:");
+
+tervehdiKayttajaa(annettuNimi);

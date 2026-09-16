@@ -11,3 +11,12 @@ console.log(`Terve! Minun nimeni on ${name} ja minun lempieläimeni on ${favouri
 const userName = prompt("Kirjoita nimesi:");
 
 console.log(`Tervehdys ${userName}! Tervetuloa JavaScriptin pariin.`);
+
+const age = prompt("Kuinka vanha olet?");
+const ageNumber = Number(age);
+
+if (ageNumber >= 18) {
+    console.log("Olet aikuinen.");
+} else {
+    console.log("Olet alle 18-vuotias.");
+}

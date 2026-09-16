@@ -27,3 +27,7 @@ function tervehdiKayttajaa(nimi) {
 const annettuNimi = prompt("Kirjoita nimesi:");
 
 tervehdiKayttajaa(annettuNimi);
+
+function naytaViesti() {
+    alert("JavaScript toimii!");
+}

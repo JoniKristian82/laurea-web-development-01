@@ -32,7 +32,6 @@ heading2.addEventListener("mouseover", function () {
   console.log("Stepped over me with a mouse!");
 });
 
-// Click on the "Exercise 1" heading
 const heading1 = document.querySelector("#exercise1");
 heading1.addEventListener("click", function () {
   heading1.style.color = "red";

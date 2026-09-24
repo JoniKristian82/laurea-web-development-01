@@ -27,15 +27,13 @@ function showTable() {
   document.querySelector("#tableContainer").innerHTML = table;
 }
 
-const ex2 = document.querySelector("#exercise2");
-
-ex2.addEventListener("mouseover", function() {
-    console.log("Stepped over me with a mouse!");
+const heading2 = document.querySelector("#exercise2");
+heading2.addEventListener("mouseover", function () {
+  console.log("Stepped over me with a mouse!");
 });
 
-const ex1 = document.querySelector("#exercise1");
-
-ex1.addEventListener("click", function() {
-    ex1.style.color = "red";
-    ex1.innerHTML = "Bye bye mouse!";
+const heading1 = document.querySelector("#exercise1");
+heading1.addEventListener("click", function () {
+  heading1.style.color = "red";
+  heading1.innerHTML = "Bye bye mouse!";
 });

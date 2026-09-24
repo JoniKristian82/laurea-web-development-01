@@ -1,1 +1,3 @@
-const clickme
+function click me() {
+    alert("You clicked me");
+}

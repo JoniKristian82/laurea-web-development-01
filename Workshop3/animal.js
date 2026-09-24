@@ -26,3 +26,15 @@ function showTable() {
 
   document.querySelector("#tableContainer").innerHTML = table;
 }
+
+const heading2 = document.querySelector("#exercise2");
+heading2.addEventListener("mouseover", function () {
+  console.log("Stepped over me with a mouse!");
+});
+
+// Click on the "Exercise 1" heading
+const heading1 = document.querySelector("#exercise1");
+heading1.addEventListener("click", function () {
+  heading1.style.color = "red";
+  heading1.innerHTML = "Bye bye mouse!";
+});
